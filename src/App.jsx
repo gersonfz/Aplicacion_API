@@ -7,6 +7,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<ItemContainer />} />
       <Route path="/:idParams" element={<ItemDetail />}/>
+      <Route path="*"/>
     </Routes>
   );
 }
