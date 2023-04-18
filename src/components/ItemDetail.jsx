@@ -1,7 +1,7 @@
 import React from 'react'
 import ItemCard from './ItemCard'
 import { Link, useParams } from 'react-router-dom'
-import { useAPI } from '../hooks/useApi'
+import { useAPI } from '../hooks/useAPI'
 import { Rings } from 'react-loader-spinner'
 import { IoReturnDownBackOutline } from 'react-icons/all'
 
